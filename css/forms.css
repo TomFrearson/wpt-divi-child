@@ -6,7 +6,7 @@ input[type=text], input[type=password], input[type=email] {
 	width: 270px;
 	height: 25px;
 	line-height: 25px;
-	margin: 0 auto !important;
+	margin: 0 !important;
 	font-family: inherit;
 	font-size: 15px;
 	padding: 4px !important;
