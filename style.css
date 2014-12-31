@@ -247,6 +247,14 @@ article.post img.wpt_featured_image {
 	padding: 5px;
 }
 
+.entry-content ol li {
+	padding-bottom: 20px;
+}
+
+.entry-content ol li:last-child {
+	padding-bottom: 0px;
+}
+
 .wp-caption.alignleft {
 	margin: 0.4em 1.2em 1.0em 0em;
 	padding: 5px 0px 0px 0px;
