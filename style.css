@@ -1,0 +1,482 @@
+/*
+Theme Name:     WPTechCentre
+Theme URI:      http://wptechcentre.com/
+Description:    Child theme for the Elegant Themes' Divi theme
+Author:         Tom Frearson
+Author URI:     http://wptechcentre.com/
+Template:       Divi
+Version:        1.0
+*/
+
+@import url("../Divi/style.css");
+
+/**
+ * General
+ */
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.4em;
+}
+
+h1 {
+	padding-bottom: 0;
+}
+
+.headline h2 {
+	font-weight: 700 !important;
+	line-height: 1.2em;
+}
+
+/**
+ * 768px
+ */
+@media only screen and ( max-width: 980px ) {
+	.headline h2 {
+		font-size: 44px !important;
+	}
+}
+/**
+ * 480px
+ */
+@media only screen and ( max-width: 767px ) {
+	h1 {
+		font-size: 26px !important;
+	}
+	.headline h2 {
+		font-size: 30px !important;
+	}
+	.headline h3 {
+		font-size: 17px !important;
+	}
+	h4 {
+		font-size: 17px !important;
+	}
+	a.et_pb_more_button {
+		font-size: 17px !important;
+	}
+}
+
+/**
+ * 320px
+ */
+@media only screen and ( max-width: 479px ) {
+	.et_pb_slide_content, a.et_pb_more_button {
+		display: inline-block !important;
+	}
+	h1 {
+		font-size: 24px !important;
+	}
+	.headline h2 {
+		font-size: 20px !important;
+	}
+	.headline h3 {
+		font-size: 15px !important;
+	}
+	h4 {
+		font-size: 15px !important;
+	}
+	p, a.et_pb_more_button {
+		font-size: 13px !important;
+	}
+}
+
+/**
+ * Home page
+ */ 
+#main-header {
+	z-index: 5;
+}
+ 
+.circle {
+	border-radius: 50%;
+}
+
+.et_pb_section {
+	padding: 25px 0;
+}
+
+.et_pb_fullwidth_section {
+	padding: 0;
+}
+
+.et_pb_divider {
+	margin: 0;
+}
+
+.et_pb_slide_content {
+	padding-bottom: 15px;
+}
+
+.et_pb_slide_description {
+	padding: 100px 0px;
+}
+
+.et_pb_pricing {
+	padding-top: 30px !important;
+}
+
+.et_pb_slide_description h2 {
+	font-weight: 500;
+}
+
+.et_pb_text {
+	width: auto;
+	margin-bottom: 20px;
+}
+
+.et_pb_contact_main_title, .et_pb_contact_reset {
+	display: none;
+}
+
+.et_pb_promo {
+	font-size: 17px;
+}
+
+.et_pb_promo.et_pb_bg_layout_dark a {
+	color: #ffffff;
+}
+
+.blurbCenter {
+	border: solid 1px #999999;
+	padding: 20px;
+}
+
+.blurbCenter h3 {
+	text-align: center;
+}
+
+#content-area table tr, #content-area table td {
+	max-width: 100% !important;
+}
+
+/**
+ * Get started
+ */
+.getStarted.et_pb_blurb {
+	background: url('/wp-content/uploads/2014/01/white-circle.png') 50% 0 no-repeat;
+}
+
+.getStarted .et_pb_blurb_content {
+	max-width: 200px;
+	min-height: 260px;
+	margin-top: -10px;
+	padding-top: 40px;
+}
+
+.getStarted.et_pb_blurb .et_pb_blurb_content h4 {
+	font-size: 36px !important;
+	font-weight: 400;
+}
+
+.getStarted.et_pb_blurb .et_pb_blurb_content p {
+	margin-top: 15px;
+	font-size: 16px;
+}
+
+.getStarted.et_pb_blurb .et_pb_blurb_content .et_pb_main_blurb_image {
+	margin-bottom: 10px;
+}
+
+/**
+ * Small jobs
+ */
+.smallJobs.et_pb_text, .improvements.et_pb_text {
+	background: aliceblue;
+	border: solid 1px #d2d2d2;
+	border-radius: 5px;
+	padding: 20px 10px 10px 10px;
+}
+
+.smallJobs.et_pb_text h4, .improvements.et_pb_text h4 {
+	line-height: 1.4em;
+}
+
+.smallJobs.et_pb_text p, .improvements.et_pb_text p {
+	background: white;
+	border-left: solid 4px #ffa500;
+	border-radius: 2px;
+	margin-top: 10px;
+	padding: 5px;
+}
+
+/**
+ * Questions
+ */
+.questions p {
+	padding-bottom: 5px;
+}
+
+/**
+ * Footer
+ */ 
+#about-image {
+	display: none;
+}
+
+.wpt-footer-links {
+	color: #ffffff !important;
+}
+
+.wpt-footer-links:hover {
+	color: #2ea3f2 !important;
+}
+
+#footer-bottom {
+	display: none;
+}
+
+/**
+ * Blog & archives
+ */
+.et_pb_widget_area_right {
+	border-left: none;
+}
+
+.blog-page .et_pb_post a img, body.archive .et_pb_post a img {
+	float: left;
+	margin-top: 0.6em;
+	margin-right: 1.2em;
+	border: solid 1px #ccc;
+	/*padding: 3px;*/
+}
+
+article.post img.wpt_featured_image {
+	float: left;
+	max-width: 50%;
+	margin: 2.6em 1.2em 1.0em 0em;
+	border: solid 1px #ccc;
+	padding: 5px;
+}
+
+.wp-caption.alignleft {
+	margin: 0.4em 1.2em 1.0em 0em;
+	padding: 5px 0px 0px 0px;
+}
+
+.et_right_quote {
+	font-size: 16px;
+}
+
+.follow-us {
+	display: inline;
+	margin-right: 6px;
+}
+
+.follow-us img {
+	width: 36px;
+}
+
+.widget_twitter li span {
+	font-size: 13px;
+}
+
+.wpt-shoutbox {
+	margin-top: 40px;
+	border: solid 2px #666666;
+	border-radius: 8px;
+	padding: 20px !important;
+}
+
+/*
+ * 'Yes' button
+ */
+a.wpt-yes-button {
+	margin: 20px 10px 0 10px;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0));
+	background:-moz-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+	background:-webkit-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+	background:-o-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+	background:-ms-linear-gradient(top, #3d94f6 5%, #1e62d0 100%);
+	background:linear-gradient(to bottom, #3d94f6 5%, #1e62d0 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0',GradientType=0);
+	background-color:#3d94f6;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #337fed;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1570cd;
+}
+a.wpt-yes-button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6));
+	background:-moz-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+	background:-webkit-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+	background:-o-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+	background:-ms-linear-gradient(top, #1e62d0 5%, #3d94f6 100%);
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6',GradientType=0);
+	background-color:#1e62d0;
+}
+a.wpt-yes-button:active {
+	position:relative;
+	top:1px;
+}
+
+/*
+ * 'No' button
+ */
+a.wpt-no-button {
+	margin: 20px 10px 0 10px;
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+	background:-moz-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-webkit-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-o-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:-ms-linear-gradient(top, #ededed 5%, #dfdfdf 100%);
+	background:linear-gradient(to bottom, #ededed 5%, #dfdfdf 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf',GradientType=0);
+	background-color:#ededed;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#aaaaaa !important;
+	font-family:arial;
+	font-size:17px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+a.wpt-no-button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed));
+	background:-moz-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-webkit-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-o-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:-ms-linear-gradient(top, #dfdfdf 5%, #ededed 100%);
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed',GradientType=0);
+	background-color:#dfdfdf;
+}
+a.wpt-no-button :active{
+	position:relative;
+	top:1px;
+}
+
+/**
+ * Stripe forms
+ */
+.stripe-form {
+	width: 600px;
+}
+
+/**
+ * Affiliate login
+ */
+#loginform input[type='text'], #loginform input[type='password'] {
+	width: 97%;
+}
+
+#loginform input[type='submit'] {
+	width: 150px;
+	float: right;
+	font: inherit;
+	padding: 5px 20px;
+	margin-bottom: 15px;
+}
+
+/**
+ * Ninja forms
+ */
+.ninja-forms-cont .field-wrap {
+	margin-bottom: 20px;
+}
+
+.ninja-forms-cont .label-above label {
+	margin-bottom: 0;
+}
+
+.ninja-forms-cont .ninja-forms-form-wrap input, .ninja-forms-cont #pass-strength-result {
+	width: 100%;
+}
+
+.ninja-forms-cont p.indicator-hint {
+	float: left;
+}
+
+.ninja-forms-response-msg.ninja-forms-error-msg, .ninja-forms-field-error {
+	color: #ff0000;
+}
+
+.ninja-forms-cont input[type='submit'] {
+	color: #ffffff;
+	width: 150px;
+	float: right;
+	font: inherit;
+	padding: 5px 20px;
+	margin-bottom: 15px;
+}
+
+/**
+ * Skype button
+ */
+#SkypeButton_Call_tom_frearson img {
+	margin: 0 !important;
+	vertical-align: -10px !important;
+}
+
+/**
+ * PayPal button
+ */
+.paypal {
+	width: 160px;
+	margin: 20px auto 0 auto;
+}
+
+/**
+ * Social sharing buttons adder
+ */
+.ssba{
+	width:300px;
+	margin:10px auto!important;
+}
+
+img.ssba {
+	margin: 0 10px;
+}
+
+/**
+ * Olark live chat
+ */
+#habla_window_div.habla_window_div_base {
+	margin-right:2px!important;
+}
+
+/**
+ * Gist
+ */
+.gist{
+	max-height:320px;
+	overflow:auto;
+}
+
+/**
+ * Disqus
+ */
+#disqus_thread iframe{
+	margin-top:20px;
+}
+
+/**
+ * MC4WP
+ */
+.widget_mc4wp_widget, .widget_mc4wp_widget input {
+	max-width: 100%;
+}
+
+.stripe-button-el.mc4wp-footer {
+	width: 140px;
+	padding: 6px 0;
+	font: inherit;
+	margin-top: 10px;
+}
